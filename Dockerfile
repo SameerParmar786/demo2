@@ -1,3 +1,3 @@
-FROM ubuntu:latest
-RUN sudo apt-get upgrade
-RUN sudo apt-get vim -y
+FROM centos
+RUN yum install vim -y
+
