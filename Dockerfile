@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-sudo apt-get upgrade
-sudo apt-get vim -y
+RUN sudo apt-get upgrade
+RUN sudo apt-get vim -y
